@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Boobs : MonoBehaviour {
-
+  
 	// Use this for initialization
 	void Start () {
 		
@@ -11,6 +11,6 @@ public class Boobs : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        Debug.Log("Huli palish, syebi, dura.");
 	}
 }
