@@ -12,7 +12,7 @@ public class Movement : MonoBehaviour {
 	}
     void Update()
     {
-
+      
     }
 	// Update is called once per frame
 	void FixedUpdate () {
