@@ -12,7 +12,10 @@ public class Movement : MonoBehaviour {
 	}
     void Update()
     {
-      
+      if(speed != 0)
+      {
+	      Debug.Log("You moving with " + speed + "speed");
+      }
     }
 	// Update is called once per frame
 	void FixedUpdate () {
