@@ -32,4 +32,12 @@ public class BulletSpawn : MonoBehaviour {
         Destroy(myObj, 2);
         
     }
+    
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Player")
+        {
+            Debug.Log("Hit player");
+        }
+    }
 }
